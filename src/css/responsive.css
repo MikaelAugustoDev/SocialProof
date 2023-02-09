@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+    
+    .topo {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 150px;
+    }
+
+    .topo .avaliacoes {
+        width: 100%;
+        margin-top: 180px;
+    }
+
+    .baixo {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .baixo .comentarios {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topo .avaliacoes .avaliacao.dois {
+        margin-left: 0px;
+    }
+    
+    .topo .avaliacoes .avaliacao.tres {
+        margin-left: 0px;
+    }
+
+    .baixo .comentarios .comentario.segundo {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .baixo .comentarios .comentario.terceiro {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .topo .textos h1 {
+        margin-left: 200px;
+    }
+
+    .topo .textos p {
+        margin-left: 180px;
+        width: 350px;
+    }
+
+    .topo .avaliacoes .avaliacao {
+        width: 370px;
+    }
+}
